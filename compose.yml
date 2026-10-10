@@ -1,0 +1,7 @@
+ services:
+  php:
+    image: php:8.5-apache-trixie
+    volumes:
+      - .:/var/www/html
+    ports:
+      - 8083:80
